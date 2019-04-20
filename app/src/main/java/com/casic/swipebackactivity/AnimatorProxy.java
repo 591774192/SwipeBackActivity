@@ -1,8 +1,5 @@
 package com.casic.swipebackactivity;
 
-import java.lang.ref.WeakReference;
-import java.util.WeakHashMap;
-
 import android.graphics.Camera;
 import android.graphics.Matrix;
 import android.graphics.RectF;
@@ -10,6 +7,9 @@ import android.os.Build;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
+
+import java.lang.ref.WeakReference;
+import java.util.WeakHashMap;
 
 /**
  * A proxy class to allow for modifying post-3.0 view properties on all pre-3.0
